@@ -1,12 +1,58 @@
-body {
+body,html {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: red;
 }
-div.logo {
-    img {
-        float: right;
+
+header {
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 10px black;
+    label {
+        font-family: sans-serif;
+        color: rgb(34, 143, 226);
+        font-size: 2.5em;
+        font-weight: 100;
     }
+}
+
+section.hello {
+  background-image: url('img/switzerland-mountains.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  div.container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    label {
+      color: whitesmoke;
+      font-size: 4.0em;
+      font-weight: 100;
+      text-shadow: 0 0 5px black;
+    }
+    span {
+      color: rgb(204, 200, 200);
+      font-size: 1.5em;
+      font-style: oblique;
+      text-shadow: 0 0 10px black;
+    }
+  }
+}
+
+section.about {
+  background-color: #6193D6;
+  width: 100%;
+  div.card {
+    flex-direction: column;
+    div.card-body {
+      flex-direction: column;
+      p.card-text {
+        font-size: 16px;
+        text-align: center
+      }
+    }
+  }
 }
