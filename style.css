@@ -4,6 +4,8 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  font-size: 16px;
 }
 header {
   border-bottom: 1px solid black;
@@ -40,17 +42,47 @@ section.hello div.container span {
   font-style: oblique;
   text-shadow: 0 0 10px black;
 }
+div.container {
+  text-align: center;
+}
+div.container label.aboutLead {
+  font-size: 3.0em;
+  font-weight: 400;
+}
+div.container label.aboutLead:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 5px gray;
+  transition: 0.3s;
+}
 section.about {
-  background-color: #6193D6;
+  background-color: whitesmoke;
   width: 100%;
 }
 section.about div.card {
   flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section.about div.card img {
+  margin-top: 10px;
 }
 section.about div.card div.card-body {
   flex-direction: column;
 }
 section.about div.card div.card-body p.card-text {
-  font-size: 16px;
   text-align: center;
+}
+section.skills div.skill {
+  margin-bottom: 20px;
+}
+section.skills div.skill div.bad {
+  align-items: center;
+}
+section.skills div.skill div.bad div.text_descriptBlock h3 {
+  color: #228fe2;
+}
+section.skills div.skill div.bad div.text_descriptBlock span.skill_description {
+  text-align: left;
+  float: left;
+  padding-left: 20px;
 }

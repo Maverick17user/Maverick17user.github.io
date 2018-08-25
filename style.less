@@ -3,11 +3,15 @@ body,html {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
+    font-size: 16px;
 }
 
 header {
+    // width: 100%;
     border-bottom: 1px solid black;
     box-shadow: 0 0 10px black;
+    // position: fixed;
     label {
         font-family: sans-serif;
         color: rgb(34, 143, 226);
@@ -42,16 +46,52 @@ section.hello {
   }
 }
 
+div.container {
+  text-align: center;
+  label.aboutLead {
+    font-size: 3.0em;
+    font-weight: 400;
+    &:hover {
+      cursor: pointer;
+      text-shadow: 2px 2px 5px gray;
+      transition: 0.3s;
+    }
+  }
+}
+
 section.about {
-  background-color: #6193D6;
+  background-color: whitesmoke;
   width: 100%;
   div.card {
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    img {
+      margin-top: 10px;
+    }
     div.card-body {
       flex-direction: column;
       p.card-text {
-        font-size: 16px;
         text-align: center
+      }
+    }
+  }
+}
+
+section.skills {
+  div.skill {
+    margin-bottom: 20px;
+    div.bad {
+      align-items: center;
+      div.text_descriptBlock {
+        h3 {
+          color: rgb(34, 143, 226);
+        }
+        span.skill_description {
+          text-align: left;
+          float: left;
+          padding-left: 20px;
+        }
       }
     }
   }

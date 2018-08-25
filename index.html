@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap  4</title>
+    <!-- <link rel="shortcut icon" href="image/world-wide-web.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" type="image/png" href="img/diamond.png"/>
     <link rel="stylesheet" href="style.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -22,29 +24,139 @@
     <section class="hello">
         <div class="container d-flex">
             <label class="lead">Hello. My name is Maksim</label>
-            <span class="small">I'm enjoying front-end development</span>
+            <span class="small">I'm intrested in front-end development</span>
         </div>
     </section> 
-    <section class="about">
+    <hr class="light">
+    <div class="container">
+        <label class="lead aboutLead" data-toggle="collapse" data-target="#demo">About me</label>
+    </div>
+    <section class="about collapse" id="demo">
         <div class="row">
-            <div class="first col-6">
-                <div class="container">
-                    <div class="card d-flex" style="width:400px">
-                      <img class="rounded-circle card-img-top align-self-center" src="img/mN-0ToanOrU.jpg" alt="Card image" style="width:200px; height:200px;">
-                      <div class="card-body d-flex">
-                        <h4 class="card-title align-self-center">Epifanov Maksim</h4>
-                        <p class="card-text align-self-center">I'm motivated on web-development. <br> 
-                            One year ago I get started on it. <br>
-                            For today I'm having some skills. <br>
-                            Let's looking for it! 
-                        </p>
-                        <a href="#" class="btn btn-primary">See Profile</a>
-                      </div>
+        <div class="first col-md-12">
+            <div class="container d-flex justify-content-center">
+                <div class="card d-flex" style="width:400px">
+                  <img class="rounded-circle card-img-top align-self-center" src="img/mN-0ToanOrU.jpg" alt="Card image" style="width:200px; height:200px;">
+                  <div class="card-body d-flex">
+                    <h4 class="card-title align-self-center">Epifanov Maksim</h4>
+                    <p class="card-text align-self-center">I'm motivated in web-development. <br> 
+                        One year ago I get started on it. <br>
+                        For today I'm having some skills in: <br>
+                        HTML/CSS/JS 
+                    </p>
+                    <a href="https://vk.com/maverickgxx" class="btn btn-primary">See VK profile</a>
+                  </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    </section>
+    <hr class="light">
+    <section class="skills">
+        <div class="row">
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/hs.jpg" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>HTML5/CSS3</h3>
+                        <span class="skill_description">
+                            I know a lot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
                     </div>
                 </div>
-            </div>    
-            <div class="second col-6">
-                
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/less-icon-17.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>CSS preprocessors</h3>
+                        <span class="skill_description">
+                            One day I decide to up my coding speed 
+                            with LESS goodlike tool. Now I'm wana try 
+                            SASS preprocessor.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/js.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>JavaScript</h3>
+                        <span class="skill_description">
+                            I use JavaScript in my projects.
+                            Sometimes it can be with JQuery or 
+                            other JS librares or frameworks.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/bootstrap-stack.png" alt="Html5 and Css3" width="128px" height="96px">
+                    <div class="text_descriptBlock">
+                        <h3>Bootstrap 4</h3>
+                        <span class="skill_description">
+                            I know alot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/1_lAR9Uh_gJ7dp23e0vhy5Hg.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>HTML5/CSS3</h3>
+                        <span class="skill_description">
+                            I know alot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>HTML5/CSS3</h3>
+                        <span class="skill_description">
+                            I know alot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/2000px-Git-logo.svg.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>HTML5/CSS3</h3>
+                        <span class="skill_description">
+                            I know alot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 skill">
+                <div class="container d-flex bad">
+                    <img class="" src="img/english.png" alt="Html5 and Css3" width="128px" height="128px">
+                    <div class="text_descriptBlock">
+                        <h3>HTML5/CSS3</h3>
+                        <span class="skill_description">
+                            I know alot of intresting things 
+                            in HTML5/CSS3 and can create 
+                            a structure and style of web-page.
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
