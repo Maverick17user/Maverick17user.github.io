@@ -5,7 +5,7 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-size: 16px;
+  font-size: 1em;
 }
 header {
   border-bottom: 1px solid black;
@@ -55,7 +55,7 @@ div.container label.aboutLead:hover {
   transition: 0.3s;
 }
 section.about {
-  background-color: whitesmoke;
+  background: linear-gradient(45deg, #ffffff, #f5f5f5, #add8e6, #f5f5f5, #ffffff);
   width: 100%;
 }
 section.about div.card {
@@ -72,17 +72,38 @@ section.about div.card div.card-body {
 section.about div.card div.card-body p.card-text {
   text-align: center;
 }
+section.skills {
+  background: linear-gradient(to bottom, #ffffff, #f5f5f5, #add8e6);
+}
 section.skills div.skill {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 section.skills div.skill div.bad {
   align-items: center;
 }
+section.skills div.skill div.bad img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section.skills div.skill div.bad div.text_descriptBlock {
+  margin-left: 15px;
+}
 section.skills div.skill div.bad div.text_descriptBlock h3 {
+  float: left;
+  padding-left: 20px;
   color: #228fe2;
 }
 section.skills div.skill div.bad div.text_descriptBlock span.skill_description {
   text-align: left;
   float: left;
   padding-left: 20px;
+}
+section.prjcts {
+  background: url(img/27130796-material-wallpapers.png);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

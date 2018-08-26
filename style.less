@@ -4,7 +4,7 @@ body,html {
     margin: 0;
     padding: 0;
     overflow-x:hidden;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 header {
@@ -60,7 +60,12 @@ div.container {
 }
 
 section.about {
-  background-color: whitesmoke;
+  background: linear-gradient(45deg, white,whitesmoke,lightblue,whitesmoke,white);
+  // background: url('img/images.jpg');
+  // background-position: 50% 50%;
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   width: 100%;
   div.card {
     flex-direction: column;
@@ -79,12 +84,27 @@ section.about {
 }
 
 section.skills {
+  background: linear-gradient(to bottom, white,whitesmoke,lightblue);
+  // background-position: 50% 50%;
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   div.skill {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
     div.bad {
       align-items: center;
+      img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
       div.text_descriptBlock {
+        // background: #F8F8F8;
+        margin-left: 15px;
         h3 {
+          float: left;
+          padding-left: 20px;
           color: rgb(34, 143, 226);
         }
         span.skill_description {
@@ -95,4 +115,12 @@ section.skills {
       }
     }
   }
+}
+
+section.prjcts {
+  background: url(img/27130796-material-wallpapers.png);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
