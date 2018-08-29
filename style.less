@@ -8,10 +8,8 @@ body,html {
 }
 
 header {
-    // width: 100%;
     border-bottom: 1px solid black;
     box-shadow: 0 0 10px black;
-    // position: fixed;
     label {
         font-family: sans-serif;
         color: rgb(34, 143, 226);
@@ -51,21 +49,11 @@ div.container {
   label.aboutLead {
     font-size: 3.0em;
     font-weight: 400;
-    &:hover {
-      cursor: pointer;
-      text-shadow: 2px 2px 5px gray;
-      transition: 0.3s;
-    }
   }
 }
 
 section.about {
   background: linear-gradient(45deg, white,whitesmoke,lightblue,whitesmoke,white);
-  // background: url('img/images.jpg');
-  // background-position: 50% 50%;
-  // background-attachment: fixed;
-  // background-repeat: no-repeat;
-  // background-size: cover;
   width: 100%;
   div.card {
     flex-direction: column;
@@ -85,10 +73,6 @@ section.about {
 
 section.skills {
   background: linear-gradient(to bottom, white,whitesmoke,lightblue);
-  // background-position: 50% 50%;
-  // background-attachment: fixed;
-  // background-repeat: no-repeat;
-  // background-size: cover;
   div.skill {
     margin-bottom: 20px;
     display: flex;
@@ -147,6 +131,27 @@ section.prjcts {
             }
           }
         }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background: linear-gradient(to left, #252525,#414141, #252525);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  span {
+      a {
+      color: whitesmoke;
+      font-weight: 600;
+      font-size: 1.5em;
+      &:hover {
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+        text-shadow: 1px 1px 5px wheat;
+        transition: 0.3s;
+      }
     }
   }
 }

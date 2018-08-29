@@ -49,11 +49,6 @@ div.container label.aboutLead {
   font-size: 3.0em;
   font-weight: 400;
 }
-div.container label.aboutLead:hover {
-  cursor: pointer;
-  text-shadow: 2px 2px 5px gray;
-  transition: 0.3s;
-}
 section.about {
   background: linear-gradient(45deg, #ffffff, #f5f5f5, #add8e6, #f5f5f5, #ffffff);
   width: 100%;
@@ -130,4 +125,22 @@ section.prjcts div.row div.col-md-6 article span h4 {
 }
 section.prjcts div.row div.col-md-6 article span p {
   padding-left: 10px;
+}
+footer {
+  width: 100%;
+  background: linear-gradient(to left, #252525, #414141, #252525);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer span a {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+footer span a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 1px 1px 5px wheat;
+  transition: 0.3s;
 }
