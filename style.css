@@ -107,3 +107,27 @@ section.prjcts {
   background-repeat: no-repeat;
   background-size: cover;
 }
+section.prjcts div.row div.col-md-6 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+section.prjcts div.row div.col-md-6 img {
+  border-radius: 35px;
+  box-shadow: 0 0 10px black;
+}
+section.prjcts div.row div.col-md-6 {
+  align-items: center;
+}
+section.prjcts div.row div.col-md-6 article {
+  width: 400px;
+}
+section.prjcts div.row div.col-md-6 article span {
+  text-align: left;
+  float: left;
+}
+section.prjcts div.row div.col-md-6 article span h4 {
+  padding-left: 10px;
+}
+section.prjcts div.row div.col-md-6 article span p {
+  padding-left: 10px;
+}
