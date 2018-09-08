@@ -83,11 +83,13 @@ section.skills div.skill div.bad div.text_descriptBlock {
   margin-left: 15px;
 }
 section.skills div.skill div.bad div.text_descriptBlock h3 {
+  display: block;
   float: left;
   padding-left: 20px;
   color: #228fe2;
 }
 section.skills div.skill div.bad div.text_descriptBlock span.skill_description {
+  display: block;
   text-align: left;
   float: left;
   padding-left: 20px;
