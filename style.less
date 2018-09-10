@@ -3,6 +3,11 @@ body,html {
     font-size: 1em;
 }
 
+// label,span,h1,h2,h3,h4,h5,h6::selection {
+//   background: rgb(34, 143, 226);
+//   color: whitesmoke;
+// }
+
 header {
     border-bottom: 1px solid black;
     box-shadow: 0 0 10px black;
@@ -152,4 +157,25 @@ footer {
       }
     }
   }
+}
+
+.wow {
+  animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+}
+
+.delay {
+  -animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb { /* ползунок */ 
+  background: rgb(144, 148, 151);
 }

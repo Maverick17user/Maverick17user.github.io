@@ -142,3 +142,21 @@ footer span a:hover {
   text-shadow: 1px 1px 5px wheat;
   transition: 0.31s;
 }
+.wow {
+  animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+}
+.delay {
+  -animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  /* ползунок */
+  background: #909497;
+}
