@@ -1,6 +1,6 @@
 setTimeout(function() {
     $('html, body').css('overflowY', 'visible');
-},1100);
+},800);
 
 // setTimeout(function() {
 //     var face = document.querySelector("section.skills");
